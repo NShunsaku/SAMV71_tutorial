@@ -37,7 +37,7 @@ EDBG UART Example
 ![alt text](image/img_ext_header.png)
 From "SAM V71 Xplained Ultra_design_documentation_release_rev12.pdf"
 
-<img src='image/img_ext1.png' width='500px'>　　<img src='image/img_ext2.png' width='490px'>
+<img src='image/img_ext1.png' width='45%'>　　<img src='image/img_ext2.png' width='44%'>
 
 ##### Software Structure
 
@@ -51,10 +51,10 @@ The ASF4 peripheral driver architecture is structured to support specific use-ca
 
 The purpose of implementing drivers in layers is to provide software interfaces that are abstracted from the underlying implementation, facilitate documentation, enable the coexistence of stable and unstable APIs, and separate hardware support code from reusable common code. Users are primarily intended to interact with the HAL layer, with the HPL and HRI layers being largely transparent but available for use.
 
-The details of the software structure are descrived below:
+The details of the software structure are descrived below:  
 https://onlinedocs.microchip.com/pr/GUID-2A8AADED-413E-4021-AF0C-D99E61B8160D-en-US-4/index.html?GUID-1051C71D-4C07-406C-ACCE-BFE886294818
 
-File Tree (ex1_output_pulse)
+File Tree (ex1_output_pulse)  
 ex1_output_pulse/  
 ├─.atmelstart  
 ├─Default.xml  
