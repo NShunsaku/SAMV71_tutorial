@@ -55,22 +55,22 @@ The details of the software structure are descrived below:
 https://onlinedocs.microchip.com/pr/GUID-2A8AADED-413E-4021-AF0C-D99E61B8160D-en-US-4/index.html?GUID-1051C71D-4C07-406C-ACCE-BFE886294818
 
 File Tree (ex1_output_pulse)
-ex1_output_pulse/
-├─.atmelstart
-├─Default.xml
-├─ex1_output_pulse.componentinfo.xml
-├─ex1_output_pulse.cproj
-├─Config/
-├─Debug/
-├─Device_Startup/
-├─documentation/
-├─examples/
-├─hal/: Hardware Abstraction Layer
-├─hpl/: Hardware Proxy Layer
-├─hri/: Hardware Register Interface
-├─atmel_start_pins.h: Pin MUX mappings as made by the user inside Atmel START
-├─atmel_start.c: Code for initializing MCU, drivers, and middleware in the project
-├─atmel_start.h: API for initializing MCU, drivers, and middleware in the project
-├─driver_init.c: Code for initializing drivers
-├─driver_init.h: API for initializing drivers
+ex1_output_pulse/  
+├─.atmelstart  
+├─Default.xml  
+├─ex1_output_pulse.componentinfo.xml  
+├─ex1_output_pulse.cproj  
+├─Config/  
+├─Debug/  
+├─Device_Startup/  
+├─documentation/  
+├─examples/  
+├─hal/: Hardware Abstraction Layer  
+├─hpl/: Hardware Proxy Layer  
+├─hri/: Hardware Register Interface  
+├─atmel_start_pins.h: Pin MUX mappings as made by the user inside Atmel START  
+├─atmel_start.c: Code for initializing MCU, drivers, and middleware in the project  
+├─atmel_start.h: API for initializing MCU, drivers, and middleware in the project  
+├─driver_init.c: Code for initializing drivers  
+├─driver_init.h: API for initializing drivers  
 └─main.c: main program (Codes to be edited mainly)
