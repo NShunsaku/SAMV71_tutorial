@@ -1,3 +1,4 @@
+#!/usr/bin/pwsh
 $today = Get-Date -Format "yyyyMMdd"
 git add .
 git commit -m "ver.$today"
