@@ -37,9 +37,9 @@ EDBG UART Example
 ![alt text](image/img_ext_header.png)
 From "SAM V71 Xplained Ultra_design_documentation_release_rev12.pdf"
 
-<img src='image/img_ext1.png' width='45%'>　　<img src='image/img_ext2.png' width='44%'>
+<img src='image/img_ext1.png' width='48%'>　　<img src='image/img_ext2.png' width='47%'>
 
-##### Software Structure
+#### Software Structure
 
 The ASF4 peripheral driver architecture is structured to support specific use-cases for peripherals, such as PWM, timers, and input-capture, rather than providing a single driver for each type of peripheral. This architecture consists of three layers:
 
