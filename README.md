@@ -37,7 +37,7 @@ EDBG UART Example
 Pin Assignment for Extension Header1 and 2.  
 (From "SAM V71 Xplained Ultra_design_documentation_release_rev12.pdf")
 ![alt text](image/img_ext_header.png)
-<img src='image/img_ext1.png' width='48%'>　　<img src='image/img_ext2.png' width='47%'>
+<img src='image/img_ext1.png' width='47%'>　<img src='image/img_ext2.png' width='46%'>
 
 ### Software Structure
 

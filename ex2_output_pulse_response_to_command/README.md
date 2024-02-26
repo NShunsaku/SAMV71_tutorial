@@ -7,7 +7,7 @@ This project is an example that generates a 10-millisecond pulse from one pin of
 There are several methods for serial communication, but for Windows, using TeraTerm is simple. Install and launch TeraTerm, and then configure the serial communication settings as shown in the following screen.
 ![alt text](../image/img_ex2_setup_terminal.png)
 
-Serial Communication is also done using Extension2 head pins:  
+Serial Communication also can be done using Extension2 head pins:  
 RXD: PA21 (Extension2 #13)  
 TXD: PB4 (Extension2 #14)
 
@@ -51,3 +51,5 @@ int main(void)
 <span style="color: Orange; ">Channel 1</span>: Port A6 (Extension2 #5)  
 When entering the command "1" from Terminal (TeraTerm):
 ![alt text](../image/img_ex2_output.png)
+
+![alt text](../image/img_ex2_terminal_output.png)
