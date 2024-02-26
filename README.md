@@ -4,19 +4,19 @@ This is a simple tutorial for SAMV71 microcontroller.
 
 #### -- Examples -----------
 
-##### ex1_output_pulse
+##### ex1_output_pulse:
 
 An example that generates a 1-millisecond pulse from two pins of the Extension Header. It is based on the SAM V71 example project 'EDBG UART.' The 1-millisecond delay is implemented using the delay function (delay_ms)
 
-##### ex2_output_pulse_response_to_command
+##### ex2_output_pulse_response_to_command:
 
 An example that generates a 10-millisecond pulse from one pin of the Extension Header in response to commands entered from the terminal via serial communication
 
-##### ex3_output_and_input_pulse
+##### ex3_output_and_input_pulse:
 
 An example that outputs a high or low-level signal from one pin of the Extension Header in response to commands entered from the terminal via serial communication and reads and outputs the signal level from another pin
 
-##### ex4_interp_timer
+##### ex4_interp_timer:
 
 An example that performs interrupt processing once every second using a timer
 
@@ -39,12 +39,16 @@ An example that performs interrupt processing once every second using a timer
    ![alt text](image/img_soft_comp_add.png)
 4. By selecting "Generate Project", the project files with C-source codes are generated.
 
+<br>
+
 #### Pin Assignment
 
 Pin Assignment for Extension Header1 and 2.  
 (From "SAM V71 Xplained Ultra_design_documentation_release_rev12.pdf")
 ![alt text](image/img_ext_header.png)
 <img src='image/img_ext1.png' width='47%'>　<img src='image/img_ext2.png' width='46%'>
+
+<br>
 
 #### Software Structure
 
@@ -81,6 +85,8 @@ ex1_output_pulse/
 ├─driver_init.c: Code for initializing drivers  
 ├─driver_init.h: API for initializing drivers  
 └─main.c: main program (Codes to be edited mainly)
+
+<br>
 
 #### References
 
