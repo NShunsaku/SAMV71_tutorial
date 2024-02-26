@@ -92,12 +92,12 @@ ex1_output_pulse/
 
 ##### Evaluation Board:
 
-SAMV71 Xplained Ultra Evaluation Kit
+SAMV71 Xplained Ultra Evaluation Kit  
 https://www.microchip.com/en-us/development-tool/atsamv71-xult
 
 ##### Software:
 
-Microchip Studio
+Microchip Studio  
 https://www.microchip.com/en-us/tools-resources/develop/microchip-studio
 
 TeraTerm (Serial Communication for Windows)  
@@ -105,5 +105,5 @@ https://teratermproject.github.io/index-en.html
 
 ##### Manual:
 
-ASF4 API Reference Manual
+ASF4 API Reference Manual  
 https://ww1.microchip.com/downloads/en/devicedoc/50002633a.pdf
