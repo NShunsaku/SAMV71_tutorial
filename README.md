@@ -2,7 +2,7 @@
 
 This is the tutorial for SAMV71 microcontroller.
 
-#### Getting Started
+### Getting Started
 
 Board:
 SAMV71 Xplained Ultra Evaluation Kit
@@ -12,7 +12,7 @@ Manual
 ASF4 API Reference Manual
 https://ww1.microchip.com/downloads/en/devicedoc/50002633a.pdf
 
-#### How to make project
+### How to make project
 
 ![alt text](image/img_start.png)
 
@@ -32,14 +32,14 @@ EDBG UART Example
   Delay function or Timer
   ![alt text](image/img_soft_comp_add.png)
 
-#### Getting Started
+### Getting Started
 
+Pin Assignment for Extension Header1 and 2.  
+(From "SAM V71 Xplained Ultra_design_documentation_release_rev12.pdf")
 ![alt text](image/img_ext_header.png)
-From "SAM V71 Xplained Ultra_design_documentation_release_rev12.pdf"
-
 <img src='image/img_ext1.png' width='48%'>　　<img src='image/img_ext2.png' width='47%'>
 
-#### Software Structure
+### Software Structure
 
 The ASF4 peripheral driver architecture is structured to support specific use-cases for peripherals, such as PWM, timers, and input-capture, rather than providing a single driver for each type of peripheral. This architecture consists of three layers:
 

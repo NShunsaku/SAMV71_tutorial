@@ -1,12 +1,13 @@
 ## Ex2: Output Pulse Response to Command from a Terminal
 
-This project is an example that generates a 1-millisecond pulse from two pins of the Extension Header. It is based on the SAM V71 example project 'EDBG UART.' The 1-millisecond delay is implemented using the delay function (delay_ms), but it is important to note that the delay driver must be added during Atmel START to ensure proper operation.
+This project is an example that generates a 10-millisecond pulse from one pin of the Extension Header in response to commands entered from the terminal via serial communication. It is based on the SAM V71 example project 'EDBG UART.' Similar to Example 1, the 10-millisecond delay is implemented using the delay function (delay_ms), and it is necessary to add the delay driver during Atmel START.
 
-##### Setup Serial Communication using TeraTerm
+### Setup Serial Communication using TeraTerm
 
+There are several methods for serial communication, but for Windows, using TeraTerm is simple. Install and launch TeraTerm, and then configure the serial communication settings as shown in the following screen.
 ![alt text](../image/img_ex2_setup_terminal.png)
 
-##### Main Source Code
+### Main Source Code
 
 ```c
 // main.c
@@ -18,7 +19,7 @@ int main(void)
 	uint8_t recv_char;
 	atmel_start_init();
 
-	usart_async_register_callback(&EDBG_COM, USART_ASYNC_TXC_CB, tx_cb_EDBG_COM);
+	usart_async_register_callback(&EDBG_COM, USART_ASYNC_TXC_CB, tx_cb_EDBG_COM); // setup for serial communication
 	usart_async_register_callback(&EDBG_COM, USART_ASYNC_RXC_CB, rx_cb_EDBG_COM);
 	usart_async_register_callback(&EDBG_COM, USART_ASYNC_ERROR_CB, err_cb_EDBG_COM);
 	usart_async_enable(&EDBG_COM);
@@ -28,7 +29,7 @@ int main(void)
 
 	while (1) {
 		io_write(&EDBG_COM.io, "Input: ", 7);
-		uint8_t flag_input = get_char();
+		uint8_t flag_input = get_char(); // input from terminal
 		if(flag_input == '1'){
 			print("\r\n");
 			io_write(&EDBG_COM.io, "ON!", 3);
@@ -41,7 +42,8 @@ int main(void)
 }
 ```
 
-##### Results Output
+### Results Output
 
-<span style="color: Orange; ">Channel 1</span>: Port A6 (Extension2 #5)
+<span style="color: Orange; ">Channel 1</span>: Port A6 (Extension2 #5)  
+When entering the command "1" from Terminal (TeraTerm):
 ![alt text](../image/img_ex2_output.png)

@@ -2,7 +2,7 @@
 
 This project is an example that generates a 1-millisecond pulse from two pins of the Extension Header. It is based on the SAM V71 example project 'EDBG UART.' The 1-millisecond delay is implemented using the delay function (delay_ms), but it is important to note that the delay driver must be added during Atmel START to ensure proper operation.
 
-##### Main Source Code
+### Main Source Code
 
 ```c
 // main.c
@@ -28,8 +28,8 @@ int main(void)
 }
 ```
 
-##### Results Output
+### Results Output
 
-<span style="color: Orange; ">Channel 1</span>: Port A6 (Extension2 #5)
-<span style="color: Blue; ">Channel 2</span>: Port C19 (Extension2 #7)
+<span style="color: Orange; ">Channel 1</span>: Port A6 (Extension2 #5)  
+<span style="color: Blue; ">Channel 2</span>: Port C19 (Extension2 #7)  
 ![alt text](../image/img_ex1_output.png)
