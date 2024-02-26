@@ -14,7 +14,7 @@ An example that generates a 10-millisecond pulse from one pin of the Extension H
 
 ##### ex3_output_and_input_pulse:
 
-An example that outputs a high or low-level signal from one pin of the Extension Header in response to commands entered from the terminal via serial communication and reads and outputs the signal level from another pin
+An example that outputs a high or low-level signal from one pin of the Extension Header in response to commands entered from the terminal via serial communication and reads the signal level from another pin
 
 ##### ex4_interp_timer:
 
